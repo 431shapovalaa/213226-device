@@ -13,7 +13,7 @@
             <img src="img-index-logo.svg" width="100" height="100" alt="логотип Device">
           </a>
       <form action="https://htmlacademy.ru" method="get">
-        <input type="search" name="поиск" placeholder="поиск по сайту">
+        <label><input type="search" name="поиск" placeholder="поиск по сайту"></label>
         <button type="submit"></button>
       </form>
       <ul class="site-navigation">
@@ -58,20 +58,20 @@
       <form action="https://htmlacademy.ru" method="get">
         <h3>Фильтры</h3>
         <h4>Стоимость</h4>
-        <input type="range" min="0" max="10000" step="1">
+        <label><input type="range" min="0" max="10000" step="1"></label>
         <h4>Цвет</h4>
         <ul class="filters-list">
-          <li> <input type="checkbox" value="Черный">Черный</li>
-          <li> <input type="checkbox" value="Белый">Белый</li>
-          <li> <input type="checkbox" value="Синий">Синий</li>
-          <li> <input type="checkbox" value="Красный">Красный</li>
-          <li> <input type="checkbox" value="Розовый">Черный</li>
+          <li> <label><input type="checkbox" value="Черный">Черный</label></li>
+          <li><label> <input type="checkbox" value="Белый">Белый</label></li>
+          <li><label> <input type="checkbox" value="Синий">Синий</label></li>
+          <li><label> <input type="checkbox" value="Красный">Красный</label></li>
+          <li><label> <input type="checkbox" value="Розовый">Черный</label></li>
         </ul>
         <h4>Bluetooth</h4>
         <span class="button catalog-filters">
-          <input type="radio" name="bluetooth" value="Есть">Есть</span>
+          <label><input type="radio" name="bluetooth" value="Есть">Есть</label></span>
         <span class="button catalog-filters">
-          <input type="radio" name="bluetooth" value="Нет">Нет</span>
+          <label><input type="radio" name="bluetooth" value="Нет">Нет</label></span>
         <a href="#"> <img src="show.jpg" alt="Показать"></a>
       </form>
     </aside>
