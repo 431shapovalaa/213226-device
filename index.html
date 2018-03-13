@@ -14,12 +14,12 @@
           </a>
       <form action="https://htmlacademy.ru" method="get">
         <img src="img/icons/search.svg" alt="поиск">
-        <input type="search" name="поиск" placeholder="поиск по сайту">
-        <button type="submit"></button>
+        <input type="search" name="поиск" placeholder="Поиск по сайту">
+        <button class="visually-hidden" type="submit">Выполнить поиск</button>
       </form>
       <ul class="site-navigation">
         <li><a href="catalog.html">Каталог товаров</a>
-          <img src="img/icons/plus.svg" alt="плюс">
+          <img src="img/icons/plus.svg" alt="Открыть каталог товаров">
           <ul>
             <li><a href="vr.html">Виртуальная реальность</a></li>
             <li><a href="selfie-monopods.html">Моноподы для селфи</a></li>
@@ -38,7 +38,7 @@
         </li>
       </ul>
       <ul class="user-navigation">
-        <li><img src="img/icons/user.svg" alt="user"><a href="enter">Вход</a></li>
+        <li> <img src="img/icons/user.svg" alt="user"><a href="enter.html">Вход</a></li>
       </ul>
       <ul class="goods-navigation">
         <li><img src="img/icons/compare.svg" alt="compare"><a href="compare.html">Сравнить</a></li>
@@ -98,9 +98,9 @@
         </table>
       </div>
       <div class="controls">
-        <button>o</button>
-        <button>o</button>
-        <button>o</button>
+        <button type="button" class="buttons-circles">Первая страница</button>
+      <button type="button" class="buttons-circles">Вторая страница</button>
+        <button type="button" class="buttons-circles">Третья страница</button>
       </div>
     </section>
     <section class="popular-goods">
@@ -162,7 +162,22 @@
     <section class="contacts">
       <h3 class="contacts-down"> Контакты </h3>
       <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает</p>
-      <a href="#"> <img src="img/content/map.png" alt="Карта проезда"></a>
+      <a href="#"> <img src="img/content/map.png" alt="Адрес магазина: ул. Строителей 15"></a>
+      <form class="contacts-down-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label class="contacts-down-fields" for="your-name">Ваше имя </label>
+          <input class="contacts-down-name" id="your-name" type="text" name="Yourname" placeholder="Иван">
+        </p>
+        <p>
+          <label class="contacts-down-fields" for="email">Ваш e-mail </label>
+          <input class="contacts-down-mail" id="email" type="text" name="email" placeholder="Ivan@ivanpost.com">
+        </p>
+        <p>
+          <label class="contacts-down-fields" for="text">Текст письма </label>
+          <input class="contacts-down-letter" id="text" type="text" name="text" placeholder="Текст письма">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
       <a href="write-to-us.html"> Напишите нам </a>
     </section>
   </main>
