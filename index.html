@@ -4,6 +4,19 @@
 <head>
   <meta charset="utf-8">
   <title>Магазин гаджетов Device</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+  @font-face {
+      font-family: 'gilroylight';
+      src: url("/fonts/gilroylight-webfont.woff2") format("woff2"),
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'gilroyextrabold';
+      src: url("/fonts/gilroyextrabold-webfont.woff2") format("woff2"),
+      font-weight: normal;
+      font-style: normal;
 </head>
 
 <body>
@@ -20,7 +33,7 @@
       <ul class="site-navigation">
         <li><a href="catalog.html">Каталог товаров</a>
           <img src="img/icons/plus.svg" alt="Открыть каталог товаров">
-          <ul>
+          <ul class="site-navigation-list">
             <li><a href="vr.html">Виртуальная реальность</a></li>
             <li><a href="selfie-monopods.html">Моноподы для селфи</a></li>
             <li><a href="action-camera.html">Экшн камеры</a></li>
@@ -205,7 +218,7 @@
     <a class="footer-contact-address" href="#">
               г.Москва, ул.Строителей 15 </a>
     <a class="footer-phone" href="#">
-                Тел.:+7(495) 495-95-95 <!--Телефон тоже будет ссылкой? -->
+                Тел.:+7(495) 495-95-95
             </a>
     <ul class="footer-social-networks">
       <li><a href="facebook.html">Facebook</a></li>
