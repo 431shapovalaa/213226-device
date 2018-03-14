@@ -52,6 +52,10 @@ placeholder {
   line-height: 36px;
   color: #000000;
 }
+.site-navigation-list a {
+    line-height: 36px;
+    color: #000000;
+}
 
 .user-navigation {
   color: #000000;
@@ -133,4 +137,16 @@ ul .about-us {
 
 .main-footer {
   color: #ffffff;
+  background-color: #464646;
+}
+.main-header {
+  background-color: #f7e296;
+}
+
+img .popular-goods-list {
+  background-color: #f7e296;
+}
+
+.services {
+  background-color: #e5e5e5;
 }
