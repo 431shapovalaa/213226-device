@@ -52,7 +52,7 @@ placeholder {
   line-height: 36px;
   color: #000000;
 }
-.site-navigation-list a {
+a .site-navigation-list  {
     line-height: 36px;
     color: #000000;
 }
