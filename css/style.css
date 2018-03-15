@@ -42,17 +42,19 @@
       line-height: 24px;
       color: #000000;
     }
-    .main-navigation a:hover {
+    .main-navigation a:hover,
+    .main-navigation a :focus {
       opacity: 60%;
     }
-    .main-navigation a :focus {
+    .main-navigation a :active {
       opacity: 30%;
     }
   }
-  .main-navigation li:hover {
+  .main-navigation li:hover,
+  .main-navigation li :focus {
     opacity: 60%;
   }
-  .main-navigation li :focus {
+  .main-navigation li :active {
     opacity: 30%;
   }
 
@@ -151,16 +153,19 @@
       line-height: 48px;
       color: #000000;
     }
-    .main-header-logo a:hover {
+    .main-header-logo a:hover,
+    .main-header-logo a:focus {
       opacity: 60%;
     }
-    .main-header-logo a:focus {
+    .main-header-logo a:active {
       opacity 30%;
-nav button :hover {
-  background-color: #000000;
-
-}
+    }
+nav button :hover,
 nav button :focus {
+  background-color: #000000;
+}
+
+nav button :active {
   background-color: #000000;
   opacity: 30%;
 }
