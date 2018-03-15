@@ -18,202 +18,233 @@
     src: url("/fonts/opensans-regular-webfont.woff2") format("woff2"), font-weight: normal;
     font-style: normal;
   }
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "open_sanslight", Arial, sans-serif;
-      font-size: 15px;
-      line-height: 30px;
-      color: #464646;
-      background-color: none;
-      background-image: none;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-    placeholder {
-      color: #000000;
-      opacity: 30%;
-    }
-    placeholder:hover {
-      opacity: 60%;
-    }
-    .site-navigation {
-      font-family: "gilroyextrabold", Arial, sans-serif;
-      font-size: 18px;
-      line-height: 24px;
-      color: #000000;
-    }
-    .main-navigation a:hover, .main-navigation a :focus {
-      opacity: 60%;
-    }
-    .main-navigation a :active {
-      opacity: 30%;
-    }
-  }
-  .main-navigation li:hover, .main-navigation li :focus {
-    opacity: 60%;
-  }
-  .main-navigation li :active {
-    opacity: 30%;
-  }
-  .site-navigation-list {
-    line-height: 36px;
-    color: #000000;
-  }
-  a .site-navigation-list {
-    line-height: 36px;
-    color: #000000;
-  }
-  a .site-navigation-list :hover, a .site-navigation-list :focus, {
-    opacity: 60%;
-  }
-  a .site-navigation-list :active {
-    opacity: 30%;
-  }
-  .user-navigation {
-    color: #000000;
-  }
-  .goods-navigation {
-    color: #000000;
-  }
-  h3 .popular-slides {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 47px;
-    line-height: 56px;
-    color: #000000;
-  }
-  tr .upper-line {
-    font-family: "gilroylight", Arial, sans-serif;
-    font-size: 36px;
-    line-height: 48px;
-    color: #000000;
-  }
-  tr .bottom-line {
+  body {
+    margin: 0;
+    padding: 0;
     font-family: "open_sanslight", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #464646;
+    background-color: none;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  placeholder {
     color: #000000;
-  }
-  .popular-goods-list {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
-  }
-  .services-list {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
-  }
-  h3 .about-us {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 47px;
-    line-height: 48px;
-    color: #000000;
-  }
-  h3 .contacts-down {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 47px;
-    line-height: 48px;
-    color: #000000;
-  }
-  ul .about-us {
-    font-family: "gilroyextrabold" font-size: 16px;
-    line-height: 40px;
-  }
-  .footer-navigation-list {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .user-navigation {
-    font-family: "o", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .goods-navigation {
-    font-family: "o", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .main-footer {
-    color: #ffffff;
-    background-color: #464646;
-  }
-  .main-header {
-    background-color: #f7e296;
-  }
-  img .popular-goods-list {
-    background-color: #f7e296;
-  }
-  .services {
-    background-color: #e5e5e5;
-  }
-  .main-header-logo {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 48px;
-    line-height: 48px;
-    color: #000000;
-  }
-  .main-header-logo a:hover, .main-header-logo a:focus {
-    opacity: 60%;
-  }
-  .main-header-logo a:active {
-    opacity 30%;
-  }
-  nav button :hover, nav button :focus {
-    background-color: #000000;
-  }
-  nav button :active {
-    background-color: #000000;
     opacity: 30%;
   }
-
-  a .popular-fitness-bracer {
+  placeholder:hover {
+    opacity: 60%;
+  }
+  .site-navigation {
     font-family: "gilroyextrabold", Arial, sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
   }
-
-  a .popular-slides-more: hover,
-  a .popular-slides-more: focus  {
-    background-color: #f0c52e;
+  .main-navigation a:hover, .main-navigation a :focus {
+    opacity: 60%;
   }
-  a .popular-slides-more
-    a .popular-slides-more:active {
-      background-color: #f0c52e;
-      opacity: 30%;
-    }
-    img .popular-goods-list {
-      background-color: #f7e296;
-    }
-      img .popular-goods-list: hover,
-        img .popular-goods-list: focus {
-          background-color: #f0c52e;
-        }
+  .main-navigation a :active {
+    opacity: 30%;
+  }
+}
 
-        img .popular-goods-list: active {
-            background-color: #f0c52e;
-            opacity: 30%;
-        }
-        .services-list a:hover,
-        .services-list a:focus {
-          background-color: #f0c52e;
-        }
-        .services-list a:active {
-          color: #f7e184;
-          background-color: #000000;
-        }
-input .contacts-down-form,
-input .contacts-down-form: hover  {
+.main-navigation li:hover, .main-navigation li :focus {
+  opacity: 60%;
+}
+
+.main-navigation li :active {
+  opacity: 30%;
+}
+
+.site-navigation-list {
+  line-height: 36px;
+  color: #000000;
+}
+
+a .site-navigation-list {
+  line-height: 36px;
+  color: #000000;
+}
+
+a .site-navigation-list :hover, a .site-navigation-list :focus, {
+  opacity: 60%;
+}
+
+a .site-navigation-list :active {
+  opacity: 30%;
+}
+
+.user-navigation {
+  color: #000000;
+}
+
+.goods-navigation {
+  color: #000000;
+}
+
+h3 .popular-slides {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 56px;
+  color: #000000;
+}
+
+tr .upper-line {
+  font-family: "gilroylight", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+}
+
+tr .bottom-line {
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.popular-goods-list {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.services-list {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+h3 .about-us {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  color: #000000;
+}
+
+h3 .contacts-down {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 47px;
+  line-height: 48px;
+  color: #000000;
+}
+
+ul .about-us {
+  font-family: "gilroyextrabold" font-size: 16px;
+  line-height: 40px;
+}
+
+.footer-navigation-list {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.user-navigation {
+  font-family: "o", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.goods-navigation {
+  font-family: "o", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-footer {
+  color: #ffffff;
+  background-color: #464646;
+}
+
+.main-header {
+  background-color: #f7e296;
+}
+
+img .popular-goods-list {
+  background-color: #f7e296;
+}
+
+.services {
+  background-color: #e5e5e5;
+}
+
+.main-header-logo {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.main-header-logo a:hover, .main-header-logo a:focus {
+  opacity: 60%;
+}
+
+.main-header-logo a:active {
+  opacity 30%;
+}
+
+nav button :hover, nav button :focus {
+  background-color: #000000;
+}
+
+nav button :active {
+  background-color: #000000;
+  opacity: 30%;
+}
+
+a .popular-fitness-bracer {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+a .popular-slides-more: hover, a .popular-slides-more: focus {
+  background-color: #f0c52e;
+}
+
+a .popular-slides-more a .popular-slides-more:active {
+  background-color: #f0c52e;
+  opacity: 30%;
+}
+
+img .popular-goods-list {
+  background-color: #f7e296;
+}
+
+img .popular-goods-list: hover, img .popular-goods-list: focus {
+  background-color: #f0c52e;
+}
+
+img .popular-goods-list: active {
+  background-color: #f0c52e;
+  opacity: 30%;
+}
+
+.services-list a:hover, .services-list a:focus {
+  background-color: #f0c52e;
+}
+
+.services-list a:active {
+  color: #f7e184;
+  background-color: #000000;
+}
+
+input .contacts-down-form, input .contacts-down-form: hover {
   background-color: #f2f2f2;
 }
+
 input .contacts-down-form: focus {
   background-color: #ffffff;
   outline: 2px #f7e184;
 }
+
 input .contacts-down-form :invalid {
   background-color: #f6dada;
   opacity: 40%;
