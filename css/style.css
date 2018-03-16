@@ -58,7 +58,7 @@ placeholder:hover {
 }
 
 .main-header a {
-text-decoration: none;
+  text-decoration: none;
   color: #000000
 }
 
@@ -67,25 +67,30 @@ text-decoration: none;
   color: #000000;
 }
 
+.main-footer {
+  background-color: #464646;
+
+}
+
 .main-footer a {
-  text-decoration:none;
+  text-decoration: none;
   color: #ffffff;
 }
 
-.main-navigation a:hover, .main-navigation a :focus {
-  color: rgba(0,0,0,0.6);
+.main-navigation a:hover, .main-navigation a:focus {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .main-navigation a:active {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
-.main-navigation li:hover, .main-navigation li :focus {
-  color: rgba(0,0,0,0.6);
+.main-navigation li:hover, .main-navigation li:focus {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .main-navigation li:active {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .site-navigation-list {
@@ -99,20 +104,17 @@ text-decoration: none;
 }
 
 .site-navigation-list a:hover, .site-navigation-list a:focus {
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .site-navigation-list a:active {
-color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .user-navigation {
   color: #000000;
 }
 
-.main-footer .user-navigation, .main-footer .goods-navigation {
-  color: #ffffff;
-}
 
 .goods-navigation {
   color: #000000;
@@ -191,6 +193,10 @@ color: rgba(0,0,0,0.3);
   font-weight: 900;
   font-size: 18px;
   line-height: 24px;
+
+}
+.footer-navigation-list a{
+  color: #ffffff;
 }
 
 .user-navigation {
@@ -198,25 +204,27 @@ color: rgba(0,0,0,0.3);
   font-size: 18px;
   line-height: 24px;
 }
+.user-navigation a {
+  color: #ffffff;
+}
 
 .goods-navigation {
   font-family: "o", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
-
-.main-footer {
+.goods-navigation  a {
   color: #ffffff;
-  background-color: #464646;
 }
-.main-footer-logo {
-  font-family: "gilroy", Arial, sans-serif;
-  font-weight: 900;
-  font-size: 48px;
-  color: #rgba(255,198,0,1);
-}
-.main-footer-logo
 
+
+.main-footer-logo a{
+    font-family: "gilroy", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+  }
 
 .main-header {
   background-color: #f7e296;
@@ -226,7 +234,7 @@ color: rgba(0,0,0,0.3);
   background-color: #e5e5e5;
 }
 
-.main-header-logo {
+.main-header-logo  {
   font-family: "gilroy", Arial, sans-serif;
   font-weight: 900;
   font-size: 48px;
@@ -235,11 +243,11 @@ color: rgba(0,0,0,0.3);
 }
 
 .main-header-logo a:hover, .main-header-logo a:focus {
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .main-header-logo a:active {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .main-navigation button:hover, .main-navigation button:focus {
@@ -248,7 +256,7 @@ color: rgba(0,0,0,0.3);
 
 .main-navigation button:active {
   background-color: #000000;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .popular-fitness-bracer a {
@@ -265,7 +273,7 @@ color: rgba(0,0,0,0.3);
 
 .popular-slides-more a:active {
   background-color: #f0c52e;
-color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .popular-goods-list img:hover, .popular-goods-list img:focus {
@@ -274,7 +282,7 @@ color: rgba(0,0,0,0.3);
 
 .popular-goods-list img:active {
   background-color: #f0c52e;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .services-list a:hover, .services-list a:focus {
@@ -297,9 +305,13 @@ color: rgba(0,0,0,0.3);
 
 .contacts-down-form input:invalid {
   background-color: #f6dada;
-  opacicolor: rgba(0,0,0,0.4);
+  opacicolor: rgba(0, 0, 0, 0.4);
 }
 
 .contacts-down-form input:invalid {
   background-color: #f6dada;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0, 0, 0, 0.4);
+}
+.yellow img {
+  color: #ffc600;
+}
