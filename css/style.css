@@ -178,11 +178,12 @@ color: rgba(0,0,0,0.3);
   color: #000000;
 }
 
-.about-us ul {
-  font-family: "gilroy"
+.about-us-list li {
+  font-family: "gilroy", Arial, sans-serif;
   font-weight: 900;
   font-size: 16px;
   line-height: 40px;
+  color: #000000;
 }
 
 .footer-navigation-list {
