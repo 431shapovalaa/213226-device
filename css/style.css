@@ -29,7 +29,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "open_sanslight", Arial, sans-serif;
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300;
   font-size: 15px;
   line-height: 30px;
   color: #464646;
@@ -49,38 +50,42 @@ placeholder:hover {
 }
 
 .site-navigation {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
 }
 
 .main-header a {
+text-decoration: none;
   color: #000000
 }
 
 .container a {
+  text-decoration: none;
   color: #000000;
 }
 
 .main-footer a {
+  text-decoration:none;
   color: #ffffff;
 }
 
 .main-navigation a:hover, .main-navigation a :focus {
-  opacity: 60%;
+  color: rgba(0,0,0,0.6);
 }
 
 .main-navigation a:active {
-  opacity: 30%;
+  color: rgba(0,0,0,0.3);
 }
 
 .main-navigation li:hover, .main-navigation li :focus {
-  opacity: 60%;
+  color: rgba(0,0,0,0.6);
 }
 
 .main-navigation li:active {
-  opacity: 30%;
+  color: rgba(0,0,0,0.3);
 }
 
 .site-navigation-list {
@@ -94,11 +99,11 @@ placeholder:hover {
 }
 
 .site-navigation-list a:hover, .site-navigation-list a:focus {
-  opacity: 60%;
+  color: rgba(0,0,0,0.6);
 }
 
 .site-navigation-list a:active {
-  opacity: 30%;
+color: rgba(0,0,0,0.3);
 }
 
 .user-navigation {
@@ -114,28 +119,32 @@ placeholder:hover {
 }
 
 .popular-slides h3 {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 47px;
   line-height: 56px;
   color: #000000;
 }
 
 .upper-line tr {
-  font-family: "gilroylight", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 300;
   font-size: 36px;
   line-height: 48px;
   color: #000000;
 }
 
 .bottom-line tr {
-  font-family: "open_sanslight", Arial, sans-serif;
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300;
   font-size: 13px;
   line-height: 20px;
   color: #000000;
 }
 
 .popular-goods-list {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -146,33 +155,39 @@ placeholder:hover {
 }
 
 .services-list {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
 }
 
 .about-us h3 {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 47px;
   line-height: 48px;
   color: #000000;
 }
 
 .contacts-down h3 {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 47px;
   line-height: 48px;
   color: #000000;
 }
 
 .about-us ul {
-  font-family: "gilroyextrabold" font-size: 16px;
+  font-family: "gilroy"
+  font-weight: 900;
+  font-size: 16px;
   line-height: 40px;
 }
 
 .footer-navigation-list {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 18px;
   line-height: 24px;
 }
@@ -203,18 +218,19 @@ placeholder:hover {
 }
 
 .main-header-logo {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 48px;
   line-height: 48px;
   color: #000000;
 }
 
 .main-header-logo a:hover, .main-header-logo a:focus {
-  opacity: 60%;
+  color: rgba(0,0,0,0.6);
 }
 
 .main-header-logo a:active {
-  opacity 30%;
+  color: rgba(0,0,0,0.3);
 }
 
 .main-navigation button:hover, .main-navigation button:focus {
@@ -223,11 +239,12 @@ placeholder:hover {
 
 .main-navigation button:active {
   background-color: #000000;
-  opacity: 30%;
+  color: rgba(0,0,0,0.3);
 }
 
 .popular-fitness-bracer a {
-  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -239,7 +256,7 @@ placeholder:hover {
 
 .popular-slides-more a:active {
   background-color: #f0c52e;
-  opacity: 30%;
+color: rgba(0,0,0,0.3);
 }
 
 .popular-goods-list img:hover, .popular-goods-list img:focus {
@@ -248,7 +265,7 @@ placeholder:hover {
 
 .popular-goods-list img:active {
   background-color: #f0c52e;
-  opacity: 30%;
+  color: rgba(0,0,0,0.3);
 }
 
 .services-list a:hover, .services-list a:focus {
@@ -271,10 +288,9 @@ placeholder:hover {
 
 .contacts-down-form input:invalid {
   background-color: #f6dada;
-  opacity: 40%;
+  opacicolor: rgba(0,0,0,0.4);
 }
 
 .contacts-down-form input:invalid {
   background-color: #f6dada;
-  opacity: 40%;
-}
+  color: rgba(0,0,0,0.4);
