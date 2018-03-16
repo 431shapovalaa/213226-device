@@ -114,6 +114,22 @@ placeholder:hover {
   color: #000000;
 }
 
+.main-navigation .user-navigation a, .main-navigation .goods-navigation a {
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.main-navigation .user-navigation a:hover, .main-navigation .user-navigation a:focus, .main-navigation .goods-navigation a:hover, .main-navigation .goods-navigation a:focus {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.main-navigation .user-navigation a:active, .main-navigation .goods-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
 .goods-navigation {
   color: #000000;
 }
@@ -361,13 +377,15 @@ placeholder:hover {
 .yellow img {
   color: #ffc600;
 }
+
 .footer-social-networks a {
   opacity: 0.3;
 }
-.footer-social-networks a:hover,
-.footer-social-networks a:focus {
+
+.footer-social-networks a:hover, .footer-social-networks a:focus {
   opacity: 0.6;
 }
+
 .footer-social-networks a:active {
   opacity: 0.1;
 }
