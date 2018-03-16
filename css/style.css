@@ -209,6 +209,14 @@ color: rgba(0,0,0,0.3);
   color: #ffffff;
   background-color: #464646;
 }
+.main-footer-logo {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #rgba(255,198,0,1);
+}
+.main-footer-logo
+
 
 .main-header {
   background-color: #f7e296;
