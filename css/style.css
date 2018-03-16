@@ -1,12 +1,6 @@
-
-$light-font-weight: 300;
-$regular-font-weight: 400;
-$bold-font-weight: 700;
-$extra-bold-font-weight: 900;
-
 @font-face {
   font-family: "gilroy";
-  font-weight: $light-font-weight;
+  font-weight: 300;
   src: url("/fonts/gilroylight-webfont.woff2") format("woff2");
   font-style: normal;
 }
@@ -14,60 +8,71 @@ $extra-bold-font-weight: 900;
 @font-face {
   font-family: "gilroy";
   src: url("/fonts/gilroyextrabold-webfont.woff2") format("woff2");
-  font-weight: $extra-bold-font-weight;
-  font-style: normal;}
-  @font-face {
-    font-family: "open_sans";
-    src: url("/fonts/opensans-light-webfont.woff2") format("woff2");
-    font-weight: $light-font-weight;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: "open_sans";
-    src: url("/fonts/opensans-regular-webfont.woff2") format("woff2");
-    font-weight: $regular-font-weight;
-    font-style: normal;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "open_sanslight", Arial, sans-serif;
-    font-size: 15px;
-    line-height: 30px;
-    color: #464646;
-    background-color: none;
-    background-image: none;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  placeholder {
-    color: #000000;
-    opacity: 30%;
-  }
-  placeholder:hover {
-    opacity: 60%;
-  }
-  .site-navigation {
-    font-family: "gilroyextrabold", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
-  }
-  .main-header a {
-    color: #000000
-  }
-  .container a {
-    color: #000000;
-  }
-  .main-footer a {
-    color: #ffffff;
-  }
-  .main-navigation a:hover, .main-navigation a :focus {
-    opacity: 60%;
-  }
-  .main-navigation a:active {
-    opacity: 30%;
-  }
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sans";
+  src: url("/fonts/opensans-light-webfont.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sans";
+  src: url("/fonts/opensans-regular-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open_sanslight", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #464646;
+  background-color: none;
+  background-image: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+placeholder {
+  color: #000000;
+  opacity: 30%;
+}
+
+placeholder:hover {
+  opacity: 60%;
+}
+
+.site-navigation {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.main-header a {
+  color: #000000
+}
+
+.container a {
+  color: #000000;
+}
+
+.main-footer a {
+  color: #ffffff;
+}
+
+.main-navigation a:hover, .main-navigation a :focus {
+  opacity: 60%;
+}
+
+.main-navigation a:active {
+  opacity: 30%;
 }
 
 .main-navigation li:hover, .main-navigation li :focus {
@@ -88,9 +93,7 @@ $extra-bold-font-weight: 900;
   color: #000000;
 }
 
-.site-navigation-list a:hover,
-.site-navigation-list a:focus,
-{
+.site-navigation-list a:hover, .site-navigation-list a:focus {
   opacity: 60%;
 }
 
@@ -101,8 +104,8 @@ $extra-bold-font-weight: 900;
 .user-navigation {
   color: #000000;
 }
-.main-footer .user-navigation,
-.main-footer .goods-navigation {
+
+.main-footer .user-navigation, .main-footer .goods-navigation {
   color: #ffffff;
 }
 
@@ -137,6 +140,7 @@ $extra-bold-font-weight: 900;
   line-height: 24px;
   color: #000000;
 }
+
 .popular-goods-list img {
   background-color: #f7e296;
 }
@@ -194,10 +198,6 @@ $extra-bold-font-weight: 900;
   background-color: #f7e296;
 }
 
-.popular-goods-list img {
-  background-color: #f7e296;
-}
-
 .services {
   background-color: #e5e5e5;
 }
@@ -217,40 +217,32 @@ $extra-bold-font-weight: 900;
   opacity 30%;
 }
 
-.main-navigation button:hover,
-.main-navigation button:focus
-{
+.main-navigation button:hover, .main-navigation button:focus {
   background-color: #000000;
 }
 
-main-navigation button:active {
+.main-navigation button:active {
   background-color: #000000;
   opacity: 30%;
 }
 
- .popular-fitness-bracer a {
+.popular-fitness-bracer a {
   font-family: "gilroyextrabold", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
 }
 
-.popular-slides-more a:hover,
-.popular-slides-more a:focus {
+.popular-slides-more a:hover, .popular-slides-more a:focus {
   background-color: #f0c52e;
 }
 
- .popular-slides-more a:active {
+.popular-slides-more a:active {
   background-color: #f0c52e;
   opacity: 30%;
 }
 
-.popular-goods-list img {
-  background-color: #f7e296;
-}
-
-.popular-goods-list img:hover,
-.popular-goods-list img:focus {
+.popular-goods-list img:hover, .popular-goods-list img:focus {
   background-color: #f0c52e;
 }
 
@@ -259,8 +251,7 @@ main-navigation button:active {
   opacity: 30%;
 }
 
-.services-list a:hover,
-.services-list a:focus {
+.services-list a:hover, .services-list a:focus {
   background-color: #f0c52e;
 }
 
@@ -269,8 +260,7 @@ main-navigation button:active {
   background-color: #000000;
 }
 
-.contacts-down-form input,
-.contacts-down-form input:hover {
+.contacts-down-form input, .contacts-down-form input:hover {
   background-color: #f2f2f2;
 }
 
@@ -279,7 +269,12 @@ main-navigation button:active {
   outline: 2px #f7e184;
 }
 
- .contacts-down-form input:invalid {
+.contacts-down-form input:invalid {
+  background-color: #f6dada;
+  opacity: 40%;
+}
+
+.contacts-down-form input:invalid {
   background-color: #f6dada;
   opacity: 40%;
 }
