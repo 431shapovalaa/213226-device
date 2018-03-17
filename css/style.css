@@ -389,3 +389,140 @@ placeholder:hover {
 .footer-social-networks a:active {
   opacity: 0.1;
 }
+  .service-delivery h2,
+  .service-guarantee h2,
+  .service-credit h2 {
+    font-family: gilroy;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+  }
+
+
+
+/* Начинается разметка для второй страницы */
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.breadcrumbs {
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba (0,0,0,0.3);
+}
+.breadcrumbs h2 {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.breadcrumbs a {
+    color: #rgba(0,0,0,0.3);
+}
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  color: rgba(0,0,0,0.6);
+}
+.breadcrumbs a:active {
+  color: rgba(0,0,0,0.1);
+}
+.catalog-filters form {
+  background-color: #ebebeb;
+}
+.catalog-filters h3 {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #dcdcdc;
+}
+.sorting-control h3 {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ebebeb;
+}
+.sorting-control {
+  background-color: #ebebeb;
+}
+.catalog-filters h4 {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ebebeb;
+}
+.sorting-control a {
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0,0,0,0.3)
+}
+.sorting-control a:hover,
+.sorting-control a:focus {
+  color: rgba(0,0,0,0.6)
+}
+.sorting-control a:active {
+  color: rgba(0,0,0,1)
+}
+.catalog-filters input {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0,0,0,0.2)
+}
+.filters-list input {
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 40px;
+  color: rgba(0,0,0,1)
+}
+.sorting-navigation{
+    background-color: #ebebeb;
+}
+.sorting-navigation a {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0,0,0,1);
+
+}
+.back-forward content:hover,
+.back-forward content:focus {
+  background-color: #000000;
+}
+/* Не получается сделать состояния для .sorting-navigation */
+
+.sorting-card {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #464646;
+
+}
+.sorting-card h4 {
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0,0,0,1)
+}
