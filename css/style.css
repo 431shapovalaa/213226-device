@@ -26,6 +26,9 @@
   font-style: normal;
 }
 
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
 body {
   margin: 0;
   padding: 0;
@@ -39,6 +42,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+img { max-width: 100% }
+a { text-decoration: none }
+
 
 placeholder {
   color: #000000;
@@ -58,12 +65,10 @@ placeholder:hover {
 }
 
 .main-header a {
-  text-decoration: none;
   color: #000000
 }
 
 .container a {
-  text-decoration: none;
   color: #000000;
 }
 
@@ -72,7 +77,6 @@ placeholder:hover {
 }
 
 .main-footer a {
-  text-decoration: none;
   color: #ffffff;
 }
 
