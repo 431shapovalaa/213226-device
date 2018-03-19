@@ -10,13 +10,22 @@
 
 <body>
   <header class="main-header">
-    <nav class="main-navigation">
-      <a class="main-header-logo" href="#">DEVICE</a>
-      <form action="https://htmlacademy.ru" method="get">
-        <img src="img/icons/search.svg" alt="поиск">
-        <input type="search" name="поиск" placeholder="Поиск по сайту">
-        <button class="visually-hidden" type="submit">Найти</button>
-      </form>
+    <nav class="main-navigation container">
+      <a class="main-header-logo " href="#">DEVICE</a>
+      <div class="main-header-line2">
+        <form action="https://htmlacademy.ru" method="get">
+          <img src="img/icons/search.svg" alt="поиск">
+          <input type="search" name="поиск" placeholder="Поиск по сайту">
+          <button class="visually-hidden" type="submit">Найти</button>
+        </form>
+        <ul class="user-navigation">
+          <li> <img src="img/icons/user.svg" alt="user"><a href="enter.html">Войти</a></li>
+        </ul>
+        <ul class="goods-navigation">
+          <li><img src="img/icons/compare.svg" alt="compare"><a href="compare.html">Сравнить</a></li>
+          <li><img src="img/icons/cart.svg" alt="cart"><a href="basket.html">Корзина</a></li>
+        </ul>
+      </div>
       <ul class="site-navigation">
         <li><a href="catalog.html">Каталог товаров</a>
           <img src="img/icons/plus.svg" alt="Открыть каталог товаров">
@@ -37,13 +46,7 @@
         <li><a href="contacts.html">Контакты</a>
         </li>
       </ul>
-      <ul class="user-navigation">
-        <li> <img src="img/icons/user.svg" alt="user"><a href="enter.html">Войти</a></li>
-      </ul>
-      <ul class="goods-navigation">
-        <li><img src="img/icons/compare.svg" alt="compare"><a href="compare.html">Сравнить</a></li>
-        <li><img src="img/icons/cart.svg" alt="cart"><a href="basket.html">Корзина</a></li>
-      </ul>
+
     </nav>
   </header>
   <main class="container">
