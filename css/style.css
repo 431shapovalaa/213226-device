@@ -182,7 +182,7 @@ placeholder:hover {
 }
 
 .popular-goods-list img {
-  background-color: #f7e296;
+
 }
 
 .services-list {
@@ -193,7 +193,7 @@ placeholder:hover {
   color: #000000;
 }
 
-.about-us h3 {
+.about-us-contacts h3 {
   font-family: "gilroy", Arial, sans-serif;
   font-weight: 900;
   font-size: 47px;
@@ -558,9 +558,10 @@ placeholder:hover {
   background-color: #f7e296;
   flex-direction: column;
   justify-content: center;
+}
+.main-navigation content {
 
 }
-
 .main-header-line2 {
   display: flex;
   flex-wrap: nowrap;
@@ -614,11 +615,94 @@ flex:5;
 .site-navigation-list {
   display: none;
 }
-
-
-
 .container {
   width: 1160px;
   margin-left: 140px;
   margin-top:40px;
+}
+.popular-slides {
+  display: flex;
+  margin-bottom: 115px;
+}
+.popular-slides-text{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.popular-fitness-bracer {
+  display: none;
+}
+.popular-quadraptore {
+  display: none;
+}
+
+.popular-goods {
+  margin-bottom: 205px;
+}
+.popular-goods-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content:space-around;
+  width: 1160px;
+}
+.popular-goods-list li{
+  padding: 0;
+  margin-right: 40px;
+  margin-bottom: 185px;
+
+}
+
+
+.item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  background-color: #f7e296;
+}
+.item-wrapper:hover,
+.item-wrapper:focus {
+  background-color: #f0c52e;
+}
+.item-wrapper img:active {
+  background-color: #f0c52e;
+  color: rgba(0, 0, 0, 0.3);
+}
+.popular-monopod {
+  display: flex;
+}
+
+.logotypes-list {
+  display: flex;
+  justify-content: space-around;
+}
+.services {
+  display: flex;
+}
+.services-list {
+  width: 280px;
+}
+.service-delivery {
+  width: 880px;
+}
+.service-guarantee {
+  display: none;
+}
+.service-credit {
+  display: none;
+}
+.about-us-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacts-down-form {
+  display: none;
 }
