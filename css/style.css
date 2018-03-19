@@ -597,17 +597,17 @@ placeholder:hover {
   display: flex;
   width: 1040px;
   order: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items:baseline;
+
 }
 
 .site-navigation-others {
-  align-self: stretch;
+flex:1;
 }
 
 .site-navigation-catalog {
-  align-self: flex-start;
+flex:5;
 }
 
 .site-navigation-list {
