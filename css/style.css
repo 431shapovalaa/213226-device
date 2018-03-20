@@ -560,7 +560,7 @@ placeholder:hover {
 .main-navigation content {}
 
 .main-header-line2 {
-  outline: 1px dashed black;
+  outline: 1px dashed red;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -588,12 +588,15 @@ outline: 1px dashed black;
   width: 440px;
   order: -3;
   flex: auto;
+  padding-bottom: 56px;
 }
 
 .main-header-logo {
 outline: 1px dashed black;
   width: 1100px;
   order: -4;
+  padding-bottom: 38px;
+
 }
 
 .site-navigation {
@@ -601,16 +604,18 @@ outline: 1px dashed black;
   display: flex;
   width: 1040px;
   order: 1;
-  justify-content: space-between;
-  align-items: baseline;
+/*  justify-content: space-between; */
+/*  align-items: baseline; */
+  padding-bottom: 170px;
+  padding-top: 48px;
 }
 
 .site-navigation-others {
-  flex: 1;
+  margin-left:290px;
 }
 
 .site-navigation-catalog {
-  flex: 5;
+margin-right: 290px;
 }
 
 .site-navigation-list {
