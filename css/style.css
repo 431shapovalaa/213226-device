@@ -157,7 +157,7 @@ placeholder:hover {
   color: #000000;
 }
 
-.upper-line tr {
+.upper-line td {
   font-family: "gilroy", Arial, sans-serif;
   font-weight: 300;
   font-size: 36px;
@@ -165,7 +165,7 @@ placeholder:hover {
   color: #000000;
 }
 
-.bottom-line tr {
+.bottom-line td {
   font-family: "open_sans", Arial, sans-serif;
   font-weight: 300;
   font-size: 13px;
@@ -526,7 +526,6 @@ placeholder:hover {
   background-color: #000000;
 }
 
-
 .sorting-card {
   font-family: "gilroy", Arial, sans-serif;
   font-weight: 900;
@@ -560,7 +559,7 @@ placeholder:hover {
 .main-navigation content {}
 
 .main-header-line2 {
-  outline: 1px dashed red;
+  outline: 1px dashed black;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -568,7 +567,7 @@ placeholder:hover {
 }
 
 .user-navigation {
-outline: 1px dashed black;
+  outline: 1px dashed black;
   display: flex;
   width: 200px;
   order: -2;
@@ -576,7 +575,7 @@ outline: 1px dashed black;
 }
 
 .goods-navigation {
-outline: 1px dashed black;
+  outline: 1px dashed black;
   display: flex;
   justify-content: space-between;
   width: 220px;
@@ -584,19 +583,16 @@ outline: 1px dashed black;
 }
 
 .main-navigation form {
-outline: 1px dashed black;
+  outline: 1px dashed black;
   width: 440px;
   order: -3;
   flex: auto;
-  padding-bottom: 56px;
 }
 
 .main-header-logo {
-outline: 1px dashed black;
+  outline: 1px dashed black;
   width: 1100px;
   order: -4;
-  padding-bottom: 38px;
-
 }
 
 .site-navigation {
@@ -604,18 +600,16 @@ outline: 1px dashed black;
   display: flex;
   width: 1040px;
   order: 1;
-/*  justify-content: space-between; */
-/*  align-items: baseline; */
-  padding-bottom: 170px;
-  padding-top: 48px;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .site-navigation-others {
-  margin-left:290px;
+  flex: 1;
 }
 
 .site-navigation-catalog {
-margin-right: 290px;
+  flex: 5;
 }
 
 .site-navigation-list {
@@ -629,16 +623,34 @@ margin-right: 290px;
 }
 
 .popular-slides {
-  outline: 1px dashed black;
+  width: 1160px;
+  outline: 3px dashed red;
   display: flex;
   margin-bottom: 115px;
 }
 
 .popular-slides-text {
-  outline: 1px dashed lightgray;
+  outline: 1px dashed black;
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 560px;
+}
+
+.popular-slides-text h3 {
+  outline: 1px dashed lightgray;
+  width: 560px;
+  height: 120px;
+  padding-bottom: 40px;
+}
+
+.popular-slides-text p {
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300px;
+  font-size: 15px;
+  line-height: 30px;
+  outline: 1px dashed lightgray;
+  width: 560px;
+  height: 120px;
 }
 
 .popular-fitness-bracer {
@@ -691,6 +703,16 @@ margin-right: 290px;
 .popular-monopod {
   outline: 1px dashed lightgray;
   display: flex;
+  justify-content: space-between;
+  height: 486px;
+  width: 1160px;
+}
+
+.popular-monopod img {
+  outline: 1px dashed lightgray;
+  width: auto;
+  height: 486px;
+  padding-right: 126px;
 }
 
 .logotypes-list {
@@ -735,9 +757,11 @@ margin-right: 290px;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .contacts-down {
   outline: 1px dashed lightgray;
 }
+
 .contacts-down-form {
   display: none;
 }
@@ -803,7 +827,21 @@ margin-right: 290px;
   height: 290px;
   background-color: #e5e5e5;
 }
+
 .services-line {
   display: flex;
   justify-content: space-between;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls a {
+  padding-right: 180px;
+  font-family: "gilroy", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 24px;
 }
