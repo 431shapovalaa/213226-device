@@ -283,7 +283,11 @@ placeholder:hover {
 .goods-navigation img {
   color: rgba(255, 198, 0, 1)
 }
-
+.main-footer-logo {
+  order:-4;
+  width: 200px;
+  flex:8;
+}
 .main-footer-logo a {
   font-family: "gilroy", Arial, sans-serif;
   font-weight: 900;
@@ -705,4 +709,47 @@ flex:5;
 }
 .contacts-down-form {
   display: none;
+}
+.main-footer{
+padding: 0px;
+margin: 0px;
+margin-top: 90px;
+  width: 100%;
+  height: 320px;
+}
+
+.main-footer-line1 {
+  display: flex;
+  width: 1160px;
+  margin-left: 140px;
+align-items: baseline;
+  flex-wrap: nowrap;
+}
+.main-footer-line2 {
+  display: flex;
+  width: 1160px;
+  margin-left: 140px;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.footer-navigation-list {
+  display: flex;
+  width: 440px;
+  justify-content: space-between;
+}
+.main-footer-line3 {
+  display: flex;
+  width: 1160px;
+  margin-left: 140px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.footer-social-networks {
+  display: flex;
+  width: 160px;
+  order: -1;
+  justify-content: space-between;
+  align-items: center;
 }
