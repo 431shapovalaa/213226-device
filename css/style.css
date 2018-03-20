@@ -181,9 +181,7 @@ placeholder:hover {
   color: #000000;
 }
 
-.popular-goods-list img {
-
-}
+.popular-goods-list img {}
 
 .services-list {
   font-family: "gilroy", Arial, sans-serif;
@@ -255,8 +253,6 @@ placeholder:hover {
   color: rgba(255, 255, 255, 0.3);
 }
 
-}
-
 .user-navigation img {
   color: rgba(255, 198, 0, 1)
 }
@@ -283,11 +279,13 @@ placeholder:hover {
 .goods-navigation img {
   color: rgba(255, 198, 0, 1)
 }
+
 .main-footer-logo {
-  order:-4;
+  order: -4;
   width: 200px;
-  flex:8;
+  flex: 8;
 }
+
 .main-footer-logo a {
   font-family: "gilroy", Arial, sans-serif;
   font-weight: 900;
@@ -302,10 +300,6 @@ placeholder:hover {
 
 .main-footer-logo a:active {
   color: rgba(255, 198, 0, 0.6)
-}
-
-.services {
-  background-color: #e5e5e5;
 }
 
 .main-header-logo {
@@ -532,7 +526,6 @@ placeholder:hover {
   background-color: #000000;
 }
 
-/* Не получается сделать состояния для .sorting-navigation */
 
 .sorting-card {
   font-family: "gilroy", Arial, sans-serif;
@@ -553,20 +546,21 @@ placeholder:hover {
 /*CSS для сетки */
 
 .main-navigation {
+  outline: 1px dashed black;
   display: flex;
   width: 1160px;
   height: 300px;
   padding-left: 60px;
   padding-right: 60px;
-
   background-color: #f7e296;
   flex-direction: column;
   justify-content: center;
 }
-.main-navigation content {
 
-}
+.main-navigation content {}
+
 .main-header-line2 {
+  outline: 1px dashed black;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -574,90 +568,102 @@ placeholder:hover {
 }
 
 .user-navigation {
+outline: 1px dashed black;
   display: flex;
   width: 200px;
   order: -2;
-  flex:auto;
+  flex: auto;
 }
 
 .goods-navigation {
+outline: 1px dashed black;
   display: flex;
   justify-content: space-between;
   width: 220px;
   order: -1;
 }
+
 .main-navigation form {
+outline: 1px dashed black;
   width: 440px;
   order: -3;
-  flex:auto;
+  flex: auto;
 }
 
 .main-header-logo {
+outline: 1px dashed black;
   width: 1100px;
   order: -4;
 }
 
-
-
 .site-navigation {
+  outline: 1px dashed black;
   display: flex;
   width: 1040px;
   order: 1;
   justify-content: space-between;
-  align-items:baseline;
-
+  align-items: baseline;
 }
 
 .site-navigation-others {
-flex:1;
+  flex: 1;
 }
 
 .site-navigation-catalog {
-flex:5;
+  flex: 5;
 }
 
 .site-navigation-list {
   display: none;
 }
+
 .container {
   width: 1160px;
   margin-left: 140px;
-  margin-top:40px;
+  margin-top: 40px;
 }
+
 .popular-slides {
+  outline: 1px dashed black;
   display: flex;
   margin-bottom: 115px;
 }
-.popular-slides-text{
+
+.popular-slides-text {
+  outline: 1px dashed lightgray;
   display: flex;
   flex-direction: column;
   width: 500px;
 }
+
 .popular-fitness-bracer {
   display: none;
 }
+
 .popular-quadraptore {
   display: none;
 }
 
 .popular-goods {
+  outline: 1px dashed lightgray;
   margin-bottom: 205px;
 }
+
 .popular-goods-list {
+  outline: 1px dashed black;
   margin: 0px;
   padding: 0px;
   list-style-type: none;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 1160px;
 }
-.popular-goods-list li{
+
+.popular-goods-list li {
   padding: 0;
   margin-right: 40px;
   margin-bottom: 185px;
-
 }
-
 
 .item-wrapper {
   display: flex;
@@ -667,65 +673,90 @@ flex:5;
   height: 160px;
   background-color: #f7e296;
 }
-.item-wrapper:hover,
-.item-wrapper:focus {
+
+.item-wrapper:hover, .item-wrapper:focus {
   background-color: #f0c52e;
 }
+
 .item-wrapper img:active {
   background-color: #f0c52e;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .popular-monopod {
+  outline: 1px dashed lightgray;
   display: flex;
 }
 
 .logotypes-list {
+  outline: 1px dashed black;
   display: flex;
   justify-content: space-around;
 }
+
 .services {
+  outline: 1px dashed black;
   display: flex;
+  flex-wrap: nowrap;
 }
+
 .services-list {
+  outline: 1px dashed lightgray;
   width: 280px;
 }
+
 .service-delivery {
+  outline: 1px dashed lightgray;
   width: 880px;
 }
+
 .service-guarantee {
   display: none;
 }
+
 .service-credit {
   display: none;
 }
+
 .about-us-contacts {
+  outline: 1px dashed black;
   display: flex;
   justify-content: space-between;
 }
+
 .about-us {
+  outline: 1px dashed lightgray;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.contacts-down {
+  outline: 1px dashed lightgray;
+}
 .contacts-down-form {
   display: none;
 }
-.main-footer{
-padding: 0px;
-margin: 0px;
-margin-top: 90px;
+
+.main-footer {
+  outline: 1px dashed lightgray;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 90px;
   width: 100%;
   height: 320px;
 }
 
 .main-footer-line1 {
+  outline: 1px dashed black;
   display: flex;
   width: 1160px;
   margin-left: 140px;
-align-items: baseline;
+  align-items: baseline;
   flex-wrap: nowrap;
 }
+
 .main-footer-line2 {
+  outline: 1px dashed black;
   display: flex;
   width: 1160px;
   margin-left: 140px;
@@ -733,12 +764,16 @@ align-items: baseline;
   align-items: baseline;
   justify-content: space-between;
 }
+
 .footer-navigation-list {
+  outline: 1px dashed lightgray;
   display: flex;
   width: 440px;
   justify-content: space-between;
 }
+
 .main-footer-line3 {
+  outline: 1px dashed black;
   display: flex;
   width: 1160px;
   margin-left: 140px;
@@ -746,10 +781,24 @@ align-items: baseline;
   justify-content: space-between;
   align-items: baseline;
 }
+
 .footer-social-networks {
+  outline: 1px dashed lightgray;
   display: flex;
   width: 160px;
   order: -1;
   justify-content: space-between;
   align-items: center;
+}
+
+.services {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 290px;
+  background-color: #e5e5e5;
+}
+.services-line {
+  display: flex;
+  justify-content: space-between;
 }
