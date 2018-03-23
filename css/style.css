@@ -2,7 +2,6 @@
   font-family: "gilroy";
   font-weight: 300;
   font-style: normal;
-
   src: url("/fonts/gilroylight-webfont.woff2") format("woff2");
 }
 
@@ -10,7 +9,6 @@
   font-family: "gilroy";
   font-weight: 900;
   font-style: normal;
-
   src: url("/fonts/gilroyextrabold-webfont.woff2") format("woff2");
 }
 
@@ -18,7 +16,6 @@
   font-family: "open_sans";
   font-weight: 300;
   font-style: normal;
-
   src: url("/fonts/opensans-light-webfont.woff2") format("woff2");
 }
 
@@ -26,7 +23,6 @@
   font-family: "open_sans";
   font-weight: 400;
   font-style: normal;
-
   src: url("/fonts/opensans-regular-webfont.woff2") format("woff2");
 }
 
@@ -41,13 +37,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-
   color: #464646;
   background-color: none;
   background-image: none;
   background-repeat: no-repeat;
   background-position: center;
-
   font-family: "open_sans", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -71,7 +65,6 @@ placeholder:hover {
   opacity: 60%;
 }
 
-
 .main-header a {
   color: #000000;
 }
@@ -88,18 +81,15 @@ placeholder:hover {
   color: #ffffff;
 }
 
-
-
 .main-navigation a {
-  color: rgba(0,0,0,1);
-
+  color: rgba(0, 0, 0, 1);
   font-family: "gilroy", Arial, sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height: 48px;
 }
-.main-navigation a:hover,
-.main-navigation a:focus {
+
+.main-navigation a:hover, .main-navigation a:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -107,40 +97,37 @@ placeholder:hover {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main-navigation li:hover,
-.main-navigation li:focus {
+.main-navigation li:hover, .main-navigation li:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
 .main-navigation li:active {
   color: rgba(0, 0, 0, 0.3);
 }
-.site-navigation a{
-  color: #000000;
 
+.site-navigation a {
+  color: #000000;
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 24px;
 }
+
 .site-navigation li {
-  list-style-type:none;
+  list-style-type: none;
 }
 
 .site-navigation-list {
   color: #000000;
-
   line-height: 36px;
 }
 
 .site-navigation-list a {
   color: #000000;
-
   line-height: 36px;
 }
 
-.site-navigation-list a:hover,
-.site-navigation-list a:focus {
+.site-navigation-list a:hover, .site-navigation-list a:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -148,48 +135,40 @@ placeholder:hover {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main-header-logo a{
-  color:rgba(0,0,0,1);
-
+.main-header-logo a {
+  color: rgba(0, 0, 0, 1);
   font-family: "gilroy", Arial, sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height: 48px;
 }
-.user-navigation a,
-.goods-navigation a {
-  color: rgba(0, 0, 0, 1);
 
+.user-navigation a, .goods-navigation a {
+  color: rgba(0, 0, 0, 1);
   font-family: "open_sans", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
 }
-.user-navigation li{
-  list-style-type:none;
+
+.user-navigation li {
+  list-style-type: none;
 }
 
-.user-navigation a:hover,
-.user-navigation a:focus,
-.main-navigation a:hover,
-.main-navigation a:focus,
-.goods-navigation a:hover,
-.goods-navigation a:focus {
+.user-navigation a:hover, .user-navigation a:focus, .main-navigation a:hover, .main-navigation a:focus, .goods-navigation a:hover, .goods-navigation a:focus {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.main-navigation a:active,
-.user-navigation a:active,
-.goods-navigation a:active {
+.main-navigation a:active, .user-navigation a:active, .goods-navigation a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
 .goods-navigation {
   color: #000000;
 }
+
 .popular-slides h3 {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 900;
@@ -198,7 +177,6 @@ placeholder:hover {
 
 .upper-line td {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
@@ -207,7 +185,6 @@ placeholder:hover {
 
 .bottom-line td {
   color: #000000;
-
   font-family: "open_sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -216,7 +193,6 @@ placeholder:hover {
 
 .popular-goods-list {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -234,7 +210,6 @@ placeholder:hover {
 
 .about-us-contacts h3 {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 900;
@@ -243,7 +218,6 @@ placeholder:hover {
 
 .contacts-down h3 {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 47px;
   font-weight: 900;
@@ -252,14 +226,11 @@ placeholder:hover {
 
 .about-us-list li {
   list-style-type: none;
-
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
   line-height: 40px;
-
 }
 
 .footer-navigation-list {
@@ -282,22 +253,19 @@ placeholder:hover {
 }
 
 .user-navigation {
-  color: rgba(0,0,0,1);
-
+  color: rgba(0, 0, 0, 1);
   font-family: "open_sans", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 30px;
 }
 
-
-.user-navigation a:hover,
-.user-navigation a:focus {
-  color: rgba(0,0,0,0.6);
+.user-navigation a:hover, .user-navigation a:focus {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .user-navigation a:active {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .user-navigation img {
@@ -310,17 +278,17 @@ placeholder:hover {
   font-weight: 300;
   line-height: 30px;
 }
-.goods-navigation li{
-  list-style-type:none;
+
+.goods-navigation li {
+  list-style-type: none;
 }
 
-.goods-navigation a:hover,
-.goods-navigation a:focus {
-  color: rgba(0,0,0,0.6);
+.goods-navigation a:hover, .goods-navigation a:focus {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .goods-navigation a:active {
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .goods-navigation img {
@@ -330,13 +298,11 @@ placeholder:hover {
 .main-footer-logo {
   flex: 8;
   order: -4;
-
   width: 200px;
 }
 
 .main-footer-logo a {
   color: rgba(255, 198, 0, 1);
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 48px;
   font-weight: 900;
@@ -353,7 +319,6 @@ placeholder:hover {
 
 .main-header-logo {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 48px;
   font-weight: 900;
@@ -379,15 +344,13 @@ placeholder:hover {
 
 .popular-fitness-bracer a {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 24px;
 }
 
-.popular-slides-more a:hover,
-.popular-slides-more a:focus {
+.popular-slides-more a:hover, .popular-slides-more a:focus {
   background-color: #f0c52e;
 }
 
@@ -396,8 +359,7 @@ placeholder:hover {
   background-color: #f0c52e;
 }
 
-.popular-goods-list img:hover,
-.popular-goods-list img:focus {
+.popular-goods-list img:hover, .popular-goods-list img:focus {
   background-color: #f0c52e;
 }
 
@@ -405,14 +367,15 @@ placeholder:hover {
   color: rgba(0, 0, 0, 0.3);
   background-color: #f0c52e;
 }
-.services-list  a{
-  color: #000000;
 
-  font-family: "gilroy", Arial,sans-serif;
+.services-list a {
+  color: #000000;
+  font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 24px;
 }
+
 .services-list a:hover, .services-list a:focus {
   background-color: #f0c52e;
 }
@@ -421,10 +384,9 @@ placeholder:hover {
   color: #f7e184;
   background-color: #000000;
 }
+
 .services-link {
   padding-bottom: 50px;
-
-
 }
 
 .contacts-down-form input, .contacts-down-form input:hover {
@@ -438,7 +400,6 @@ placeholder:hover {
 
 .contacts-down-form input:invalid {
   background-color: #f6dada;
-
   opacicolor: rgba(0, 0, 0, 0.4);
 }
 
@@ -465,7 +426,6 @@ placeholder:hover {
 
 .services-delivery h2, .services-guarantee h2, .services-credit h2 {
   color: #000000;
-
   font-family: gilroy;
   font-size: 48px;
   font-weight: 900;
@@ -476,9 +436,7 @@ placeholder:hover {
 
 .visually-hidden {
   position: absolute;
-
   clip: rect(0 0 0 0);
-
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -486,7 +444,6 @@ placeholder:hover {
 
 .breadcrumbs {
   color: rgba (0, 0, 0, 0.3);
-
   font-family: "open_sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -495,7 +452,6 @@ placeholder:hover {
 
 .breadcrumbs h2 {
   color: #000000;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 48px;
   font-weight: 900;
@@ -521,7 +477,6 @@ placeholder:hover {
 .catalog-filters h3 {
   color: #000000;
   background-color: #dcdcdc;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -531,7 +486,6 @@ placeholder:hover {
 .sorting-control h3 {
   color: #000000;
   background-color: #ebebeb;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -545,7 +499,6 @@ placeholder:hover {
 .catalog-filters h4 {
   color: #000000;
   background-color: #ebebeb;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -554,7 +507,6 @@ placeholder:hover {
 
 .sorting-control a {
   color: rgba(0, 0, 0, 0.3);
-
   font-family: "open_sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -571,7 +523,6 @@ placeholder:hover {
 
 .catalog-filters input {
   color: rgba(0, 0, 0, 0.2);
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -580,7 +531,6 @@ placeholder:hover {
 
 .filters-list input {
   color: rgba(0, 0, 0, 1);
-
   font-family: "open_sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -593,7 +543,6 @@ placeholder:hover {
 
 .sorting-navigation a {
   color: rgba(0, 0, 0, 1);
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -606,7 +555,6 @@ placeholder:hover {
 
 .sorting-card {
   color: #464646;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
@@ -615,7 +563,6 @@ placeholder:hover {
 
 .sorting-card h4 {
   color: rgba(0, 0, 0, 1);
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -628,12 +575,10 @@ placeholder:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   width: 1160px;
   height: 300px;
   padding-right: 60px;
   padding-left: 60px;
-
   outline: 1px dashed black;
   background-color: #f7e296;
 }
@@ -645,7 +590,6 @@ placeholder:hover {
   align-items: baseline;
   flex-wrap: nowrap;
   justify-content: space-between;
-
   outline: 1px dashed black;
 }
 
@@ -653,9 +597,7 @@ placeholder:hover {
   display: flex;
   flex: auto;
   order: -2;
-
   width: 200px;
-
   outline: 1px dashed black;
 }
 
@@ -663,26 +605,20 @@ placeholder:hover {
   display: flex;
   justify-content: space-between;
   order: -1;
-
   width: 220px;
-
   outline: 1px dashed black;
 }
 
 .main-navigation form {
   flex: auto;
   order: -3;
-
   width: 440px;
-
   outline: 1px dashed black;
 }
 
 .main-header-logo {
   order: -4;
-
   width: 1100px;
-
   outline: 1px dashed black;
 }
 
@@ -691,9 +627,7 @@ placeholder:hover {
   align-items: baseline;
   justify-content: space-between;
   order: 1;
-
   width: 1040px;
-
   outline: 1px dashed black;
 }
 
@@ -716,34 +650,27 @@ placeholder:hover {
 
 .popular-slides {
   display: flex;
-
   width: 1160px;
   margin-bottom: 115px;
-
   outline: 1px dashed black;
 }
 
 .popular-slides-text {
   display: flex;
   flex-direction: column;
-
   width: 560px;
-
   outline: 1px dashed black;
 }
 
 .popular-slides-text h3 {
   width: 560px;
   padding-bottom: 40px;
-
   outline: 1px dashed lightgray;
 }
 
 .popular-slides-text p {
   width: 560px;
-
   outline: 1px dashed lightgray;
-
   font-family: "open_sans", Arial, sans-serif;
   font-size: 15px;
   font-weight: 300px;
@@ -761,17 +688,14 @@ placeholder:hover {
 .popular-goods {
   width: 1160px;
   margin-bottom: 46px;
-
   outline: 1px dashed lightgray;
 }
+
 .popular-goods-list {
   display: flex;
   justify-content: space-around;
-
   width: 1160px;
-
   list-style-type: none;
-
   outline: 1px dashed black;
 }
 
@@ -785,10 +709,8 @@ placeholder:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-
   width: 160px;
   height: 160px;
-
   background-color: #f7e296;
 }
 
@@ -804,28 +726,24 @@ placeholder:hover {
 .popular-monopod {
   display: flex;
   justify-content: space-between;
-
   width: 1160px;
   height: 486px;
-
   outline: 1px dashed lightgray;
 }
 
 .popular-monopod img {
   width: auto;
   padding-right: 126px;
-
   outline: 1px dashed lightgray;
 }
 
 .logotypes-list {
   display: flex;
   justify-content: space-around;
-
   margin-bottom: 92px;
-
   outline: 1px dashed black;
 }
+
 .logotypes-list li {
   list-style-type: none;
 }
@@ -833,59 +751,54 @@ placeholder:hover {
 .services {
   display: flex;
   flex-wrap: nowrap;
-
   width: auto;
-
   outline: 2px dashed black;
   background-color: #e5e5e5;
 }
+
 .services-sliders {
   display: flex;
   justify-content: space-between;
-
   padding-bottom: 70px;
-
   outline: 4px dashed red;
 }
-.services-sliders img {
 
-}
+.services-sliders img {}
+
 .services-delivery {
   display: flex;
   flex-direction: column;
-
   padding-right: 120px;
   padding-bottom: 70px;
   padding-left: 120px;
-
   outline: 3px dashed lightgray;
+}
 
+.services-delivery h2 {
+  width: 217px;
+  padding-bottom: 40px;
 }
-.services-delivery h2{
-width: 217px;
-padding-bottom: 40px;
-}
-.services-delivery p{
+
+.services-delivery p {
   width: 426px;
   padding-bottom: 70px;
 }
+
 .services-sliders ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   width: 278px;
-
-  list-style-type:none;
-
+  list-style-type: none;
   outline: 3px dashed black;
-
 }
+
 .services-delivery-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .services-guarantee {
   display: none;
 }
@@ -897,55 +810,57 @@ padding-bottom: 40px;
 .about-us-contacts {
   display: flex;
   justify-content: space-between;
-
   outline: 1px dashed black;
 }
 
 .about-us {
   display: flex;
   flex-direction: column;
-
   outline: 1px dashed lightgray;
 }
-.about-us a{
-  align-content: flex-end;
 
+.about-us a {
+  align-content: flex-end;
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 24px;
 }
+
 .about-us h3 {
   margin-bottom: 60px;
 }
+
 .about-us-text {
   width: 462px;
   margin-bottom: 80px;
-
-    outline: 2px dashed black;
+  outline: 2px dashed black;
 }
+
 .contacts {
   display: flex;
   flex-direction: column;
-
   outline: 2px dashed black;
 }
-.contacts h3{
+
+.contacts h3 {
   margin-bottom: 60px;
 }
+
 .contacts-content {
   width: 511px;
-margin-bottom: 80px;
+  margin-bottom: 80px;
   outline: 2px dashed black;
 }
-.contacts  a {
-  margin-bottom:0px;
 
+.contacts a {
+  margin-bottom: 0px;
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 24px;
 }
+
 .contacts img {
   width: 560px;
 }
@@ -960,7 +875,6 @@ margin-bottom: 80px;
   margin: 0px;
   margin-top: 90px;
   padding: 0px;
-
   outline: 1px dashed lightgray;
 }
 
@@ -968,10 +882,8 @@ margin-bottom: 80px;
   display: flex;
   align-items: baseline;
   flex-wrap: nowrap;
-
   width: 1160px;
   margin-left: 140px;
-
   outline: 1px dashed black;
 }
 
@@ -980,19 +892,15 @@ margin-bottom: 80px;
   align-items: baseline;
   flex-wrap: nowrap;
   justify-content: space-between;
-
   width: 1160px;
   margin-left: 140px;
-
   outline: 1px dashed black;
 }
 
 .footer-navigation-list {
   display: flex;
   justify-content: space-between;
-
   width: 440px;
-
   outline: 1px dashed lightgray;
 }
 
@@ -1001,10 +909,8 @@ margin-bottom: 80px;
   align-items: baseline;
   flex-wrap: nowrap;
   justify-content: space-between;
-
   width: 1160px;
   margin-left: 140px;
-
   outline: 1px dashed black;
 }
 
@@ -1013,11 +919,10 @@ margin-bottom: 80px;
   align-items: center;
   justify-content: space-between;
   order: -1;
-
   width: 160px;
-
   outline: 1px dashed lightgray;
 }
+
 .controls {
   display: flex;
   justify-content: space-between;
@@ -1025,9 +930,52 @@ margin-bottom: 80px;
 
 .controls a {
   padding-right: 180px;
-
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   font-weight: 900;
   line-height: 24px;
+}
+
+.breadcrumbs ul {
+  display: flex;
+  align-items: : flex-start;
+  list-style-type: none;
+  outline: 1px dashed black;
+}
+.breadcrumbs li {
+  font-family: "open_sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: rbga(0,0,0,1);
+  padding-right: 50px;
+}
+
+.catalog-control {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.catalog-filters {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0;
+  width: 348px;
+}
+.sorting-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: 0;
+  width: 833px;
+  height:70px;
+}
+.sorting-control ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.sorting-control li {
+  margin-left:50px;
 }
