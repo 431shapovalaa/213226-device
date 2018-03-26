@@ -503,7 +503,6 @@ placeholder:hover {
 }
 
 .catalog-filters form {
-  background-color: #ebebeb;
 }
 
 .catalog-filters h3 {
@@ -513,6 +512,8 @@ placeholder:hover {
   font-size: 16px;
   font-weight: 900;
   line-height: 24px;
+margin-top:25px;
+margin-bottom: 25px;
 }
 .catalog-h3-wrapper {
 background-color: #dcdcdc;
@@ -1076,10 +1077,8 @@ background-color: #dcdcdc;
 .sorting-control {
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
+  justify-content: space-around;
 
-  width: 833px;
-  height:70px;
   margin-left: 0;
 
   background-color: #efefef;
@@ -1096,13 +1095,10 @@ background-color: #dcdcdc;
 
 .catalog-main {
   display: flex;
-
-  width: 1160px;
 }
 .catalog {
   display: flex;
   flex-direction: column;
-
       outline: 2px dashed red;
 
 }
@@ -1112,14 +1108,13 @@ background-color: #dcdcdc;
   justify-content: space-between;
 
   padding-top: 70px;
-  padding-right: 20px;
   padding-bottom: 70px;
   padding-left: 70px;
+  padding-right: 20px;
 
       outline: 1px dashed black;
 }
 .catalog-cards article {
-
 }
 .sorting-navigation ul{
   display: flex;
