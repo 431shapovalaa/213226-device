@@ -10,41 +10,38 @@
 
 <body>
   <header class="main-header">
-      <div class="main-header-logo">
-      <a href="#"><img src="img/icons/logo-header.png" width="163" height="35" alt="Логотип Девайс"></a>
-    </div>
-      <nav class="main-navigation container">
+    <nav class="main-navigation container">
+    <a class="main-header-logo" href="#"><img src="img/icons/logo-header.png" width="163" height="35" alt="Логотип Девайс"></a>
+      <div class="main-header-line-two">
+        <form class="main-header-form" action="https://echo.htmlacademy.ru" method="get">
+          <input class="form-search-input" type="search" name="поиск" placeholder="Поиск по сайту">
+          <button class="visually-hidden" type="submit">Найти</button>
+        </form>
         <ul class="user-navigation">
-          <li> <form action="https://htmlacademy.ru" method="get">
-            <img src="img/icons/search.svg" alt="поиск">
-            <input type="search" name="поиск" placeholder="Поиск по сайту">
-            <button class="visually-hidden" type="submit">Найти</button>
-          </form>
-        </li>
-          <li> <img src="img/icons/user.svg" alt="user"><a href="enter.html">Войти</a></li>
+          <li class="user-navigation-login"> <img src="img/icons/user.svg" alt="user"><a class="user-navigation-link" href="enter.html">Войти</a></li>
+        <!--</ul>
+        <ul class="goods-navigation"> -->
+          <li><img src="img/icons/compare.svg" alt="compare"><a class="user-navigation-link" href="compare.html">Сравнить</a></li>
+          <li><img src="img/icons/cart.svg" alt="cart"><a class="user-navigation-link" href="basket.html">Корзина</a></li>
         </ul>
-        <ul class="goods-navigation">
-          <li><img src="img/icons/compare.svg" alt="compare"><a href="compare.html">Сравнить</a></li>
-          <li><img src="img/icons/cart.svg" alt="cart"><a href="basket.html">Корзина</a></li>
-        </ul>
+      </div>
       <ul class="site-navigation">
-        <li><a href="catalog.html">Каталог товаров</a>
+        <li class="site-navigation-catalog"><a href="catalog.html">Каталог товаров</a>
           <img src="img/icons/plus.svg" alt="Открыть каталог товаров">
           <ul class="site-navigation-list">
-            <li><a href="vr.html">Виртуальная реальность</a></li>
-            <li><a href="selfie-monopods.html">Моноподы для селфи</a></li>
-            <li><a href="action-camera.html">Экшн камеры</a></li>
-            <li><a href="fitness-brasers.html">Фитнес-браслеты</a></li>
-            <li><a href="clever-watch.html">Умные часы</a></li>
-            <li><a href="fitness-brasers.html">Фитнес-браслеты</a></li>
+            <li><a href="vr.html">Виртуальная реальность</a>
+            <a href="selfie-monopods.html">Моноподы для селфи</a>
+            <a href="action-camera.html">Экшн камеры</a></li>
+            <li><a href="fitness-brasers.html">Фитнес-браслеты</a>
+            <a href="clever-watch.html">Умные часы</a></li>
             <li><a href="quadraptors.html">Квадрокоптеры</a></li>
           </ul>
         </li>
-        <li><a href="delivery.html">Доставка</a>
+        <li class="site-navigation-delivery"><a href="delivery.html">Доставка</a>
         </li>
-        <li><a href="guarantee.html">Гарантия</a>
+        <li class="site-navigation-guarantee"><a href="guarantee.html">Гарантия</a>
         </li>
-        <li><a href="contacts.html">Контакты</a>
+        <li class="site-navigation-contacts"><a href="contacts.html">Контакты</a>
         </li>
       </ul>
 
