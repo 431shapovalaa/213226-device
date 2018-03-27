@@ -341,6 +341,7 @@ placeholder:hover {
 }
 
 .main-header-logo {
+
   color: #000000;
 
   font-family: "gilroy", Arial, sans-serif;
@@ -506,14 +507,15 @@ placeholder:hover {
 }
 
 .catalog-filters h3 {
+margin-top:25px;
+margin-bottom: 25px;
+
   color: #000000;
 
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   font-weight: 900;
   line-height: 24px;
-margin-top:25px;
-margin-bottom: 25px;
 }
 .catalog-h3-wrapper {
 background-color: #dcdcdc;
@@ -621,14 +623,15 @@ background-color: #dcdcdc;
   justify-content: center;
 
   width: 1160px;
-
-  padding-right: 60px;
-  padding-left: 60px;
+  height: 300px;
   margin-top: 40px;
+  padding-top: 28px;
+    padding-right: 60px;
+    padding-bottom: 160px;
+    padding-left: 60px;
 
   outline: 1px dashed black;
   background-color: #f7e296;
-  height: 300px;
 }
 
 .main-navigation content {}
@@ -644,6 +647,8 @@ background-color: #dcdcdc;
 
 .user-navigation {
   display: flex;
+  margin: 0;
+  padding: 0;
   flex: auto;
   order: -2;
 
@@ -673,13 +678,12 @@ background-color: #dcdcdc;
 
 .main-header-logo {
   position: absolute;
-  top: 20px;
-    left: 170px;
+  top: 15px;
+    left: 175px;
+
   order: -4;
 
-  width: 1100px;
-
-  outline: 1px dashed black;
+  width: 165px;
 }
 
 .site-navigation {
@@ -1104,6 +1108,7 @@ background-color: #dcdcdc;
 .catalog {
   display: flex;
   flex-direction: column;
+
       outline: 2px dashed red;
 
 }
@@ -1113,9 +1118,9 @@ background-color: #dcdcdc;
   justify-content: space-between;
 
   padding-top: 70px;
+  padding-right: 20px;
   padding-bottom: 70px;
   padding-left: 70px;
-  padding-right: 20px;
 
       outline: 1px dashed black;
 }
